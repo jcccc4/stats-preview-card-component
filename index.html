@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="bg-main text-white">
+    <div
+      class="pb-8 w-card bg-card mx-auto my-[88px] rounded-lg lg:flex lg:my-[177px] lg:w-card-lg lg:h-card-lg lg:pb-0 lg:relative"
+    >
+      <img
+        src="./images/image-header-mobile.jpg"
+        alt="Logo"
+        class="rounded-lg w-full h-[240px] lg:hidden"
+      />
+      <div>
+        <h1
+          class="mt-10 font-inter text-h1 text-center font-bold mx-[31px] lg:mt-[71px] lg:ml-[72px] lg:w-[403px] lg:text-left lg:text-h1-lg"
+        >
+          Get <span class="text-accent">insights</span> that help your business
+          grow.
+        </h1>
+
+        <p
+          class="font-inter mt-4 text-p text-center mx-[31px] opacity-75 font-normal lg:mt-[25px] lg:ml-[72px] lg:text-left lg:w-[374px]"
+        >
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+
+        <div
+          class="flex flex-col items-center text-center mt-10 text-h2 font-bold gap-6 lg:flex-row lg:ml-[72px] lg:text-left lg:gap-0 lg:mt-[72px]"
+        >
+          <div class="lg:mr-[63px]">
+            <h2>10k+</h2>
+            <p
+              class="text-p2 font-lex tracking-[1px] opacity-[.65] font-normal mt-0.5"
+            >
+              COMPANIES
+            </p>
+          </div>
+          <div class="lg:mr-[60px]">
+            <h2>314</h2>
+            <p
+              class="text-p2 font-lex tracking-[1px] opacity-[.65] font-normal mt-0.5"
+            >
+              TEMPLATES
+            </p>
+          </div>
+          <div>
+            <h2>12m+</h2>
+            <p
+              class="text-p2 font-lex tracking-[1px] opacity-[.65] font-normal mt-0.5"
+            >
+              QUERIES
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="bg-red-400  top-0 right-0 relative h-full w-[540px] ml-[64px] rounded-r-lg">
+        <img
+          src="./images/image-header-desktop.jpg"
+          alt="Logo"
+          class="hidden rounded-r-lg absolute  lg:block mix-blend-multiply"
+        />
+      </div>
+    </div>
+
+    <div class="w-screen text-center">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        class="text-blue-300"
+        >Frontend Mentor</a
+      >. Coded by <a href="#" class="text-blue-300">John Carlo Sacramento</a>.
+    </div>
+  </body>
+</html>
